@@ -5,6 +5,7 @@ import { Hero } from "@/components/site/Hero";
 import { About, Education, Skills, Services, Portfolio, WhyMe } from "@/components/site/Sections";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
+import Blog from "@/components/site/Blog";
 
 const description =
   "Chetan Shukla is a digital marketer in New Delhi helping businesses grow with SEO, social media marketing, Google Ads, Meta Ads, content marketing and AI-powered strategies.";
@@ -48,6 +49,9 @@ function Index() {
         <Services />
         <Portfolio />
         <WhyMe />
+        <div className="p-20 text-center text-5xl font-bold">
+  TEST BLOG
+</div>
         <Contact />
       </main>
       <Footer />
