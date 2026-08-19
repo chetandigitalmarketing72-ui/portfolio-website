@@ -49,9 +49,7 @@ function Index() {
         <Services />
         <Portfolio />
         <WhyMe />
-        <div className="p-20 text-center text-5xl font-bold">
-  TEST BLOG
-</div>
+        <Blog />
         <Contact />
       </main>
       <Footer />
